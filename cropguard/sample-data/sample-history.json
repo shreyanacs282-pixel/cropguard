@@ -1,0 +1,41 @@
+[
+  {
+    "crop": "Tomato",
+    "detection": "Early Blight",
+    "detectionKey": "early-blight",
+    "type": "disease",
+    "pathogen": "Alternaria solani",
+    "confidence": 94,
+    "severity": "Medium",
+    "severityScore": 58,
+    "symptoms": ["Dark brown spots with concentric rings", "Yellow halo around each spot"],
+    "location": "Kolar, Karnataka",
+    "source": "mock-model"
+  },
+  {
+    "crop": "Maize",
+    "detection": "Fall Armyworm",
+    "detectionKey": "fall-armyworm",
+    "type": "pest",
+    "pathogen": "Spodoptera frugiperda",
+    "confidence": 88,
+    "severity": "High",
+    "severityScore": 79,
+    "symptoms": ["Ragged holes in young leaves", "Moist sawdust-like droppings in the whorl"],
+    "location": "Mandya, Karnataka",
+    "source": "mock-model"
+  },
+  {
+    "crop": "Rice (paddy)",
+    "detection": "Healthy Crop",
+    "detectionKey": "healthy",
+    "type": "healthy",
+    "pathogen": "",
+    "confidence": 91,
+    "severity": "Low",
+    "severityScore": 0,
+    "symptoms": ["Even green colour with no spots or patches"],
+    "location": "Davangere, Karnataka",
+    "source": "mock-model"
+  }
+]

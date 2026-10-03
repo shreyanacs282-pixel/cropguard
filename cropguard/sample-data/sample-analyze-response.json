@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "crop": "Tomato",
+    "detection": "Early Blight",
+    "detectionKey": "early-blight",
+    "type": "disease",
+    "pathogen": "Alternaria solani",
+    "confidence": 94,
+    "severity": "Medium",
+    "severityScore": 58,
+    "symptoms": [
+      "Dark brown spots with concentric rings, like a target",
+      "A yellow halo around each spot",
+      "Lowest leaves turn yellow and drop first",
+      "Sunken dark lesions on stems near the soil"
+    ],
+    "summary": "A fungal leaf spot that starts on the oldest leaves and climbs the plant.",
+    "recommendations": {
+      "immediate": [
+        "Pick off and destroy the worst affected lower leaves",
+        "Stop overhead watering straight away",
+        "Mulch the soil surface to stop spores splashing up"
+      ],
+      "cultural": [
+        "Improve air movement by pruning the lowest 30 cm of foliage",
+        "Feed a balanced dose of nitrogen; starved plants collapse faster"
+      ],
+      "biological": [
+        "Trichoderma viride or T. harzianum as a soil drench and foliar spray",
+        "Bacillus subtilis based biofungicide every 7-10 days"
+      ],
+      "chemical": [
+        "Protectant: mancozeb 75% WP, about 2 g per litre of water",
+        "Curative: azoxystrobin 23% SC, about 1 ml per litre",
+        "Alternate the two so the fungus does not build resistance"
+      ],
+      "preventive": [
+        "Rotate away from tomato, potato and brinjal for 2-3 seasons",
+        "Stake plants and space them so leaves dry quickly after rain",
+        "Irrigate at the base, never over the leaves",
+        "Remove and burn crop residue after harvest"
+      ]
+    },
+    "expertAdvice": "Contact your Krishi Vigyan Kendra or state agriculture officer if the affected area doubles within a week of treatment, if more than a quarter of the field is affected, or if you are unsure about this result.",
+    "source": "mock-model",
+    "analyzedAt": "2026-09-20T06:30:00.000Z",
+    "imageHash": "8f14e45fceea167a5a36dedd4bea2543...",
+    "imageSizeBytes": 482113,
+    "processingMs": 4
+  },
+  "savedId": "66ed0f5c9b1a2f0012a4c7d1",
+  "disclaimer": "AI-based detection is an assistance tool and may not always be accurate. For serious crop damage or uncertain results, consult a qualified agricultural expert. Follow local agricultural recommendations and product labels before applying any treatment."
+}

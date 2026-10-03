@@ -1,0 +1,5 @@
+import streamlit as st
+
+st.title("CropGuard AI")
+
+st.write("Hello! My project is working.")

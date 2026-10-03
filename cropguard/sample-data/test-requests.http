@@ -1,0 +1,50 @@
+### CropGuard API - sample requests
+### Works in VS Code with the REST Client extension, or copy the curl versions below.
+
+### Health check
+GET http://localhost:5000/api/health
+
+### Analyze a crop image (replace the path with a real photo)
+# curl -X POST http://localhost:5000/api/analyze \
+#   -F "image=@./sample-data/tomato-leaf.jpg" \
+#   -F "crop=Tomato" \
+#   -F "stage=Flowering" \
+#   -F "save=true"
+
+### Full library
+GET http://localhost:5000/api/library
+
+### Diseases only
+GET http://localhost:5000/api/diseases
+
+### Pests only
+GET http://localhost:5000/api/pests
+
+### Search the library
+GET http://localhost:5000/api/library?search=tomato
+
+### One entry
+GET http://localhost:5000/api/library/early-blight
+
+### History
+GET http://localhost:5000/api/history?limit=20
+
+### Dashboard numbers
+GET http://localhost:5000/api/history/stats
+
+### Save a record by hand (body taken from sample-history.json)
+POST http://localhost:5000/api/history
+Content-Type: application/json
+
+{
+  "crop": "Tomato",
+  "detection": "Early Blight",
+  "detectionKey": "early-blight",
+  "type": "disease",
+  "confidence": 94,
+  "severity": "Medium",
+  "severityScore": 58
+}
+
+### Delete a record
+# DELETE http://localhost:5000/api/history/<id>
